@@ -1,0 +1,22 @@
+<div class="label">
+  <h1>{{ label }}</h1>
+  <br />
+</div>
+
+<div *ngIf="!isAddTask">
+  <h2>{{ title }}</h2>
+  <button (click)="addNewTask()" class="button-74">Add New Task</button>
+  
+  <div *ngFor="let task of taskList">
+    <div class="table">
+      <br /><br />
+
+      <app-task [taskIn]="task"></app-task>
+      <br />
+    </div>
+  </div>
+</div>
+
+<div *ngIf="isAddTask">
+  <app-add-task (taskOut)="addTask($event)"></app-add-task>
+</div>

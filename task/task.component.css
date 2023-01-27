@@ -1,0 +1,36 @@
+.table{
+  border: solid white;
+  width: auto;
+  height: auto;
+  margin-left: 200px;
+  margin-right: 200px;
+  justify-content: center;
+  border-radius: 30px;
+  padding: 20px;
+  background-color:  #fbeee0 ;
+  background-color: #422800;
+  border: 2px solid #fbeee0 ;
+  box-shadow: #fbeee0  4px 4px 0 0;
+  color: #fbeee0 ;
+
+
+}
+p{
+  color: #fbeee0;
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+h1{
+  margin-left: 50px;
+  font-size: 24px;
+}
+
+.content2{
+  margin-left: 58px;
+}
+
+.content3{
+  margin-left: 55px;
+}
+
